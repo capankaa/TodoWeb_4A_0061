@@ -14,32 +14,33 @@ btnTambah.addEventListener("click", function() {
     }
 
     let listbaru = document.createElement("li");
-    let spanbaru = document.createElement("span");
-    let tanggalbaru = document.createElement("span");
-    let btnHapus = document.createElement("button");
-    let btnEdit = document.createElement("button");
-
-    spanbaru.innerHTML = teksTugas;
-    tanggalbaru.innerHTML = tanggalTugas;
     
+    let spanbaru = document.createElement("span");
+    spanbaru.innerHTML = teksTugas;
+    listbaru.appendChild(spanbaru);
+
+    let tanggalbaru = document.createElement("span");
+    tanggalbaru.innerHTML = tanggalTugas;
+    listbaru.appendChild(tanggalbaru);
+    
+    
+    let btnHapus = document.createElement("button");
     btnHapus.innerHTML = "Hapus";
     btnHapus.classList.add("hapus");
-
-    btnEdit.innerHTML = "Edit";
-    listbaru.appendChild(btnEdit);
-    
-btnHapus.addEventListener("click", function() {
+    btnHapus.addEventListener("click", function() {
     listbaru.remove();
 
 });
-
-
-    listbaru.appendChild(spanbaru);
-    listbaru.appendChild(tanggalbaru);
     listbaru.appendChild(btnHapus);
 
-    daftarTugas.appendChild(listbaru);
 
+    let btnEdit = document.createElement("button");
+    btnEdit.innerHTML = "Edit";
+    listbaru.appendChild(btnEdit);
+
+
+    daftarTugas.appendChild(listbaru);
+    
     const warnabaru = document.querySelectorAll("li");
     warnabaru.forEach((item, index) => {
         if(index % 2 === 0){

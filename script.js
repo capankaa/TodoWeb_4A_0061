@@ -58,6 +58,10 @@ btnTambah.addEventListener("click", function() {
 
 }
 
+        if(statusTugas.value === "Progress"){
+            
+}
+
 });
     listbaru.appendChild(statusTugas);
 

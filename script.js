@@ -20,7 +20,12 @@ btnTambah.addEventListener("click", function() {
 
     spanbaru.innerHTML = teksTugas;
     tanggalbaru.innerHTML = tanggalTugas;
+    
     btnHapus.innerHTML = "Hapus";
+
+btnHapus.addEventListener("click", function() {
+
+});
 
 
     listbaru.appendChild(spanbaru);

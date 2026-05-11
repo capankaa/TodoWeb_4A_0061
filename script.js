@@ -24,6 +24,7 @@ btnTambah.addEventListener("click", function() {
     btnHapus.innerHTML = "Hapus";
 
 btnHapus.addEventListener("click", function() {
+    listbaru.remove();
 
 });
 

@@ -53,6 +53,9 @@ btnTambah.addEventListener("click", function() {
     statusTugas.appendChild(done);
 
     statusTugas.addEventListener("change", function() {
+        if(statusTugas.value === "Done"){
+
+}
 
 });
     listbaru.appendChild(statusTugas);

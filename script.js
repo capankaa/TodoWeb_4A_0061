@@ -43,6 +43,8 @@ btnTambah.addEventListener("click", function() {
 });
     listbaru.appendChild(btnEdit);
 
+    let statusTugas = document.createElement("select");
+
 
     daftarTugas.appendChild(listbaru);
     

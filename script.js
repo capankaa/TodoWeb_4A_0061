@@ -36,6 +36,9 @@ btnTambah.addEventListener("click", function() {
 
     let btnEdit = document.createElement("button");
     btnEdit.innerHTML = "Edit";
+    btnEdit.addEventListener("click", function() {
+
+});
     listbaru.appendChild(btnEdit);
 
 

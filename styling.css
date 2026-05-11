@@ -46,3 +46,7 @@ li {
 .done {
     text-decoration: line-through;
 }
+
+.progress {
+    color: orange;
+}

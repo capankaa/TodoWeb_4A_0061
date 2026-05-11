@@ -25,6 +25,7 @@ btnTambah.addEventListener("click", function() {
 
     listbaru.appendChild(spanbaru);
     listbaru.appendChild(tanggalbaru);
+    listbaru.appendChild(btnHapus);
 
     daftarTugas.appendChild(listbaru);
 

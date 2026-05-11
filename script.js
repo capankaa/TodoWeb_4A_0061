@@ -22,6 +22,7 @@ btnTambah.addEventListener("click", function() {
     tanggalbaru.innerHTML = tanggalTugas;
     
     btnHapus.innerHTML = "Hapus";
+    btnHapus.classList.add("hapus");
 
 btnHapus.addEventListener("click", function() {
     listbaru.remove();

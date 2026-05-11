@@ -36,6 +36,7 @@ btnTambah.addEventListener("click", function() {
 
     let btnEdit = document.createElement("button");
     btnEdit.innerHTML = "Edit";
+    btnEdit.className = "edit";
     btnEdit.addEventListener("click", function() {
         let editTugas = prompt("Edit Tugas");
         spanbaru.innerHTML = editTugas;

@@ -50,6 +50,7 @@ btnTambah.addEventListener("click", function() {
 
     let done = document.createElement("option");
     done.innerHTML = "Done";
+    statusTugas.appendChild(done);
 
     daftarTugas.appendChild(listbaru);
     

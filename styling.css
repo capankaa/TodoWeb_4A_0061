@@ -79,3 +79,15 @@ select {
     padding: 8px 12px;
     border-radius: 6px;
 }
+
+select {
+    cursor: pointer;
+}
+
+#inputTanggal {
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}

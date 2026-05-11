@@ -6,6 +6,7 @@ const daftarTugas = document.getElementById("daftarTugas");
 btnTambah.addEventListener("click", function() {
 
     let teksTugas = inputTugas.value;
+    let tanggalTugas = inputTanggal.value;
 
     if(teksTugas === ""){
         alert("Masukkan Data Terlebih Dahulu!");
@@ -14,7 +15,6 @@ btnTambah.addEventListener("click", function() {
 
     let listbaru = document.createElement("li");
     let spanbaru = document.createElement("span");
-
 
     spanbaru.innerHTML = teksTugas;
 

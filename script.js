@@ -1,4 +1,5 @@
 const inputTugas = document.getElementById("inputTugas");
+const inputTanggal = document.getElementById("inputTanggal");
 const btnTambah = document.getElementById("btnTambah");
 const daftarTugas = document.getElementById("daftarTugas");
 

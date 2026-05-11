@@ -52,6 +52,9 @@ btnTambah.addEventListener("click", function() {
     done.innerHTML = "Done";
     statusTugas.appendChild(done);
 
+    statusTugas.addEventListener("change", function() {
+
+});
     listbaru.appendChild(statusTugas);
 
     daftarTugas.appendChild(listbaru);

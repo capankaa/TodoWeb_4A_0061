@@ -48,5 +48,34 @@ li {
 }
 
 .progress {
-    color: orange;
+    color: #000000;
+}
+
+li {
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+.edit {
+    background: #ffbb00;
+    color: rgb(255, 255, 255);
+}
+
+.edit:hover {
+    background: #dba100;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 6px;
 }

@@ -44,6 +44,8 @@ btnTambah.addEventListener("click", function() {
     listbaru.appendChild(btnEdit);
 
     let statusTugas = document.createElement("select");
+    let progress = document.createElement("option");
+    progress.innerHTML = "Progress";
 
 
     daftarTugas.appendChild(listbaru);

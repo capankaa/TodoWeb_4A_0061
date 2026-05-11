@@ -18,6 +18,7 @@ btnTambah.addEventListener("click", function() {
     let tanggalbaru = document.createElement("span");
 
     spanbaru.innerHTML = teksTugas;
+    tanggalbaru.innerHTML = tanggalTugas;
 
 
     listbaru.appendChild(spanbaru);

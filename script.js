@@ -61,6 +61,7 @@ btnTambah.addEventListener("click", function() {
 
         if(statusTugas.value === "Progress"){
             spanbaru.classList.add("progress");
+            spanbaru.classList.remove("done");
 }
 
 });

@@ -37,6 +37,7 @@ btnTambah.addEventListener("click", function() {
     let btnEdit = document.createElement("button");
     btnEdit.innerHTML = "Edit";
     btnEdit.addEventListener("click", function() {
+        let editTugas = prompt("Edit Tugas");
 
 });
     listbaru.appendChild(btnEdit);

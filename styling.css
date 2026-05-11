@@ -42,3 +42,7 @@ li {
 .hapus:hover {
     background: #dc2626;
 }
+
+.done {
+    text-decoration: line-through;
+}

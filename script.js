@@ -25,6 +25,8 @@ btnTambah.addEventListener("click", function() {
     btnHapus.innerHTML = "Hapus";
     btnHapus.classList.add("hapus");
 
+    btnEdit.innerHTML = "Edit";
+
 btnHapus.addEventListener("click", function() {
     listbaru.remove();
 

@@ -54,6 +54,7 @@ btnTambah.addEventListener("click", function() {
 
     statusTugas.addEventListener("change", function() {
         if(statusTugas.value === "Done"){
+            spanbaru.classList.add("done");
 
 }
 
